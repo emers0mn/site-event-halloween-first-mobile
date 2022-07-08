@@ -3,29 +3,90 @@
     src: url(fonts/Gordita\ Medium.otf);
 }
 
+@font-face {
+    font-family: halloween;
+    src: url(fonts/Halloween\ Night.otf);
+}
+
 body{
     font-family: gordita_medium;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    margin: auto;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     width: 80%;
+    align-items: center;
+    margin: auto;
+    height: 100%;
 }
 
-.top
-{
-    {}
-}
-
-.img-1{
-    
-    width: 360px;
-    
-
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(.jpg);
+.top-img{
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/a.jpg) center ;
+    background-position-y: -350px;
+    background-size: 1000px 1000px;
+    overflow: hidden;
     border-radius: 0px 0px 5px 5px;
+    height: 629px;
+}
+
+.logo{
+    margin-top: 20%;
+}
+
+.tittle-one{
+    font-family: halloween;
+    color: rgba(249, 205, 98, 1);
+    font-size: 40px;
+    line-height: 70%;
+    position: absolute;
+    top: 300px;
+}
+
+.tittle-two{
+    font-family: halloween;
+    color: white;
+    font-size: 21px;
+}
+
+.top-preco{
+    background: linear-gradient(268.37deg, #644A77 0%, #2E2E2E 100%);
+    border-radius: 5px;
+    font-family: halloween;
+    color:rgba(249, 205, 98, 1) ;
+
+    padding: 05px 15px 05px 15px;
+    font-size: 29px;
+    position: absolute;
+    top: 400px;
+}
+
+.forma-de-pagamento{
+    background: rgba(249, 205, 98, 1);
+    border-radius: 5px;
+    
+    color:black;
+
+    padding: 05px 10px 05px 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 470px;
+}
+
+.clique-direct{
+    position: absolute;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    bottom: 5%;
+}
+
+.messagem{
+    background-image: url();
 }
