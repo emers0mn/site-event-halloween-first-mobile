@@ -13,7 +13,6 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
-    margin: auto;
 }
 
 .container{
@@ -87,6 +86,100 @@ body{
     bottom: 5%;
 }
 
-.messagem{
-    background-image: url();
+.container-mensagem{
+    background: url(Icon/base_head_icon.png) center;
+    height: 231px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mensagem{
+    position: relative;
+    bottom: 20px;
+}
+
+.grandioso{
+    color: #F9CD62;
+    font-family: halloween;
+    font-size: 30px;
+}
+
+.anular{
+    text-align: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.tiitle-section{
+    font-family: halloween;
+    font-size: 42px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #644A77;
+}
+
+.sub-section{
+    font-family: halloween;
+    color:#FD990D;
+    font-size: 20px;
+}
+
+.price{
+    color:rgba(249, 205, 98, 1);
+    font-family: halloween;
+    font-size: 31px;
+    margin: auto;
+    padding: 10px;
+    width: 124px;
+    margin-top: 30px;
+
+    background: linear-gradient(268.37deg, #644A77 0%, #2E2E2E 100%);
+    border-radius: 8.5px;
+}
+
+.buy-info{
+    font-family: gordita_medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.line{
+    line-height: 81%
+}
+
+.bt-buy{
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 223px;
+
+    background: linear-gradient(269.01deg, #FD990D -0.99%, #F9CD62 100%);
+    border-radius: 6.35227px;
+}
+
+.emerson{
+    color: #FD990D;
+    text-decoration: none;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    background: url(Icon/design-footer.svg) center;
+    height: 124px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    font-size: 13px;
 }
