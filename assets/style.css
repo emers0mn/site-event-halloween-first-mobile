@@ -16,6 +16,10 @@ body{
     position: absolute;
 }
 
+a{
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -219,13 +223,28 @@ li{
     width: 100%;
 }
 
+
+.img-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .window-pgs{
     display: flex;
     background: linear-gradient(268.37deg, #644A77 0%, #2E2E2E 100%);
     border-radius: 5px;
+    width: 311px;
+    height: 60px;
 
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+
+    position: relative;
+    bottom: 25px;
+    
 }
 
 .tittle-pgs{
@@ -233,25 +252,56 @@ li{
     font-size: 26px;
     color: #F9CD62;
     width: 185px;
+
+    margin: 0;
 }
 
 .subtittle-pgs{
     font-family: halloween;
     font-size: 13px;
     color: white;
+    margin: 0;
+
 }
 
 .price-pgs{
     font-family: halloween;
+    font-size: 20px;
     color: #F9CD62;
+    margin: 0;
 }
 
 .bt-buy-pgs{
     background: linear-gradient(269.01deg, #FD990D -0.99%, #F9CD62 100%);
     border-radius: 2px;
-    padding: 5px;
+    padding: 3px;
     font-size: 8px;
     text-decoration: none;
-
 }
 
+.pg-detalhes{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bt-p{
+    background: linear-gradient(268.37deg, #644A77 0%, #2E2E2E 100%);
+    border-radius: 10px;
+
+    color: #F9CD62;
+    font-family: halloween;
+    font-family: 18px;
+
+    padding: 15px 10px 15px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.p-detalhes{
+    color: #A78EB8;
+    margin: 10px;
+}
