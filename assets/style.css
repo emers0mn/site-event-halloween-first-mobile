@@ -104,9 +104,13 @@ a{
     top: -10px;
 }
 
+
+
 .logo-msg{
-    width: 186px;
-    margin-bottom: 15px;
+    width: 140px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -10px;
 }
 
 .mensagem{
