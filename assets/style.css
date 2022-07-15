@@ -92,6 +92,10 @@ a {
     top: 510px;
 }
 
+.clique-direct:hover{
+    transition: 20000ms;
+}
+
 .container-mensagem {
     background: url(Icon/base_head_icon.svg) center;
     height: 231px;
