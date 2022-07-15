@@ -13,12 +13,12 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    position: absolute;
 }
 
 a {
     text-decoration: none;
 }
+
 
 .container {
     display: flex;
@@ -38,6 +38,7 @@ a {
     overflow: hidden;
     border-radius: 0px 0px 5px 5px;
     height: 629px;
+    
 }
 
 .logo {
@@ -92,30 +93,63 @@ a {
 }
 
 .container-mensagem {
-    background: url(Icon/base_head_icon.png) center;
+    background: url(Icon/base_head_icon.svg) center;
     height: 231px;
     overflow: hidden;
     color: white;
     display: flex;
+    align-items:center;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+   
     position: relative;
     top: -10px;
 }
 
+.abobora-left{
+    position: absolute;
+    left: -25px;
+    top: 97px;
+}
+
+.abobora-right{
+    position: absolute;
+    right: 6px;
+    top: 20px;
+}
+
+.comida-container{
+    height: 470px;
+}
+
+.abobora-grande{
+    position: relative;
+    bottom: 150px;
+    right: -120px;
+}
+
+.abobora-pequena{
+    position: relative;
+    left: -150px;
+    top: 30px;
+}
+
+.comida{
+    display: flex;
+    margin: auto;
+}
 
 
 .logo-msg {
     width: 140px;
-    margin-bottom: 10px;
     position: relative;
-    top: -10px;
+    top: -15px;
 }
 
 .mensagem {
+    margin: ;
     position: relative;
     bottom: 20px;
+    width: 280px;
 }
 
 .grandioso {
@@ -189,13 +223,18 @@ a {
     text-decoration: none;
 }
 
+footer p{
+    position: relative;
+    bottom: 10px;
+}
+
 .container-footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     color: white;
     background: url(Icon/design-footer.svg) center;
-    height: 124px;
+    height: 123px;
     overflow: hidden;
     margin-bottom: 60px;
     font-size: 13px;
@@ -212,20 +251,21 @@ ul {
     margin: 0;
 }
 
-li {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    gap: 0px;
-}
-
 .menu-bar {
+    
     background: #644A77;
-    border-radius: 11.2963px 11.2963px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
     text-align: center;
     position: fixed;
     bottom: 0%;
     width: 100%;
+}
+
+li {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 2px;
 }
 
 
@@ -236,11 +276,15 @@ li {
 
 }
 
+.foto{
+    width: 100%;
+}
+
 .window-pgs {
     display: flex;
     background: linear-gradient(268.37deg, #644A77 0%, #2E2E2E 100%);
     border-radius: 5px;
-    width: 311px;
+    width: 95%;
     height: 60px;
 
     justify-content: space-around;
@@ -256,7 +300,6 @@ li {
     font-family: halloween;
     font-size: 26px;
     color: #F9CD62;
-    width: 185px;
 
     margin: 0;
 }
