@@ -365,8 +365,8 @@ li {
     margin: auto;
 }
 
-.carrossel-img{
-    
+.navegation{
+    display: none;
 }
 
 .fotos-img{
