@@ -6,9 +6,7 @@ Everything that can be used in this site was made by me. Until this moment, my s
 The UX/UI of the page was developed by me using Figma and Adobe Illustrator.
 All Css and HTML of the page was also made from scratch.
 
-<div aling "center">
-<img scr="https://user-images.githubusercontent.com/99356491/180003598-07b65341-7172-494a-a624-317387d40122.png" width="500px"/>
-</div>
+![image in the figma](https://user-images.githubusercontent.com/99356491/180003598-07b65341-7172-494a-a624-317387d40122.png)
 
 I prioritized the site to be designed first for mobile, then for other screen formats. Mainly because of the public study that was done. But, the whole process of the site was developed so that any platform could use the site without major problems. 
 
