@@ -92,6 +92,9 @@ a {
     top: 510px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .container-mensagem {
     background: url(Icon/base_head_icon.svg) center;
